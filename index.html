@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mini site pour le rendu d'un travail de transcription et d'encodage de texte en XML-TEI"> 
+    <meta name="author" content="Raphaël Rollinet"/>
+    <link rel="icon" type="image/x-icon" href="images/unine_logo_couleur.png">
+    <title>TEI - Accueil</title>
+    <link rel="stylesheet" href="styles/style.css "type="text/css" media="screen"> 
+</head>
+<body>
+        <!-- En-tête -->
+           <section class="haut-page">
+               <header class="header">
+                   <a href="index.html"><img src="images/unine_logo_couleur.png" alt="Logo"></a>
+           
+                   <!-- menu navigateur -->
+               <div class="titre-page">
+                   <h1 class="grand-titre">Édition de texte : Du manuscrit au XML-TEI</h1>
+               </div>
+                   <nav class="nav">
+                       <ul>
+                           <li><a href="#">Accueil</a></li>
+                           <li><a href="Manuscrit/manuscrit.html">Manuscrit</a></li>
+                           <li><a href="Documentation_TEI/documentation.html">Documentation TEI</a></li>
+                           <li><a href="A-propos/a-propos.html">À propos</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </section> 
+    <div class="parchment">
+        <h1>Bienvenue</h1>
+        <p class="justify">Ce projet est effectué dans le cadre de notre Master pour les cours : 
+            <br>
+            <br>
+            <li class="justify"> "Édition de texte : introduction à l'édition numérique avec TEI"</li> 
+            <li class="justify"> "Atelier d'histoire : Au coeur des archives : paléographie, diplomatique et pratique des manuscrits".</li></p>
+        <br>
+        <p class="justify">Il vise a la réalisation d'un projet de paléographie puis d'édition de texte avec des méthodes numériques.</p>
+        <br>
+        <h2>Méthodologie</h2>
+        <p class="justify">Dans le cadre de ce projet, nous avons procédé avec une méthodologie d'usage en humanités numériques en enrichissant la paléographie traditionnelle avec de l'encodage de texte en xml-tei visant à enrichir la transcription de métadonnées et facilitant son exploitation et sa réutilisation.</p>
+        <br>
+        <p class="justify">Notre méthodologie fut la suivante :</p>
+        <ol class="justify">
+        <li>Paléographie sur des manuscrits provenant des Archives de la Ville de Neuchâtel (AVN).</li>
+        <li>Transcription du manuscrit dans un document Word pour faciliter sa consultation.</li>
+        <li>Édition numérique du manuscrit dans un fichier xml-tei en utilisant le logiciel "Oxygen XML" selon les <a href="https://tei-c.org/guidelines/">guidelines TEI</a>. </li>
+        <li>Encodage d'éléments spécifiques dans le texte selon l'adage « C’est pas parce qu’on peut tout faire que l’on doit tout faire (Simon Gabay, 2024)», soit pour notre projet la sélection des informations réutilisables dans des champs archivistiques ou un thésaurus:</li>
+            <ul class="justify">
+            <li>Encodage des personnes (persName)</li>
+            <li>Encodage des localisations (placeName)</li>
+            <li>Encodage des dates</li>
+            </ul>
+        <li>Génération d'un ficher ODD grâce à <a href="https://romaantiqua.tei-c.org">romaantiqua</a>.</li>
+        <li>Transformation du fichier XML-TEI en HTML grâce au xslt (Extensible Stylesheet Language Transformations).</li>
+        <li>Création d'un mini-site internet et intégration des rendus pour la publication du travail.</li>
+        </ol>
+        <br>
+
+        <h2>Rendu du projet</h2>
+        <br>
+        <p class="justify">Le bouton en forme de sceau ci-dessous permet de télécharger notre projet sous la forme d'un dossier compressé.</p>
+        <br>
+        <a href="telechargement/Rendu_TEI_Romain_Margaron_Raphael_Rollinet_20250118.zip" download="Rendu" input class="download-button">Télécharger</a>
+    </div>
+    <footer>
+        Raphaël Rollinet et Romain Margaron, semestre d'automne 2024-2025
+    </footer>
+</body>
+</html>
